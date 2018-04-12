@@ -1,6 +1,12 @@
 # API (Application Programming Interface)
 
-- Facebook
-- Twitter
-- Instagram
-- OpenWeatherMap
+- [Facebook](https://developers.facebook.com/)
+    - [Messenger Platform](https://developers.facebook.com/products/messenger/overview/)
+    - [Instagram Graph API](https://developers.facebook.com/products/instagram/)
+- [Google](https://developers.google.com/products/)
+    - [Maps API](https://developers.google.com/maps/)
+    - [Gmail API](https://developers.google.com/gmail/api/)
+    - [YouTube Data API](https://developers.google.com/youtube/v3/)
+- [Twitter](https://developer.twitter.com/)
+- [OpenWeatherMap](https://openweathermap.org/)
+- [Telegram](https://core.telegram.org/)
