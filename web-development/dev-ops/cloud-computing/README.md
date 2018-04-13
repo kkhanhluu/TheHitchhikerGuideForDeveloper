@@ -5,3 +5,4 @@
 - Microsoft Azure
 - IBM Bluemix
 - Heroku
+- Digital Ocean

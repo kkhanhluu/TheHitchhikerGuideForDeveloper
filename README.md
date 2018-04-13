@@ -1,7 +1,6 @@
 # The Hitchhiker's Guilde for Developer
 
 - API (Application Programming Interface)
-- Cloud Computing
 - IDE (Integrated Development Environment)
 - Machine Learning
     - Approaches
@@ -17,6 +16,22 @@
     - Linux Ubuntu 16.04
     - Windows
 - Web Development
-    - JavaScript
+    - Front-end
+        - HTML5
+        - CSS3
+            - CSS-Preprocessors
+            - Frameworks
+        - JavaScript
+            - Frameworks
+            - Libraries
+    - Back-end
+        - Languages
+        - Package Manager
         - Frameworks
-        - Libraries
+        - Databases
+        - Auth
+        - Servers
+    - DevOps
+        - Cloud Computing
+        - Continuous Integration & Continuous Development
+        - Containers
