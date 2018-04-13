@@ -2,6 +2,8 @@
 
 - API (Application Programming Interface)
 - IDE (Integrated Development Environment)
+    - IDE
+    - Text Editor
 - Machine Learning
     - Approaches
     - Applications
