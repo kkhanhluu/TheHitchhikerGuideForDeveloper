@@ -2,9 +2,6 @@
 
 - API (Application Programming Interface)
 - Cloud Computing
-- JavaScript
-    - Frameworks
-    - Libraries
 - IDE (Integrated Development Environment)
 - Machine Learning
     - Approaches
@@ -19,3 +16,7 @@
 - Set Up a Simple Express Server
     - Linux Ubuntu 16.04
     - Windows
+- Web Development
+    - JavaScript
+        - Frameworks
+        - Libraries
