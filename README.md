@@ -6,6 +6,9 @@
     - Frameworks
     - Libraries
 - IDE (Integrated Development Environment)
+- Machine Learning
+    - Approaches
+    - Applications
 - Mobile App
     - Hybrid
     - Native
