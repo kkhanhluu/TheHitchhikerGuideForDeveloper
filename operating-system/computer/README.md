@@ -9,7 +9,7 @@
     - Arch
 - macOS
     - OX S
-        - Mountain Lion	
+        - Mountain Lion
         - Mavericks
         - Yosemite
         - El Capitan	
