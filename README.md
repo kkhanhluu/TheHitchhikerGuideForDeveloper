@@ -1,6 +1,7 @@
 # The Hitchhiker's Guilde for Developer
 
 - API (Application Programming Interface)
+- Cloud Computing
 - JavaScript
     - Frameworks
     - Libraries
