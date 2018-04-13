@@ -11,12 +11,13 @@
     - Hybrid
     - Native
 - Operating System
-- Set Up Node.js 
-    - Linux Ubuntu 16.04
-    - Windows
-- Set Up a Simple Express Server
-    - Linux Ubuntu 16.04
-    - Windows
+- Set Up
+    - Node.js 
+        - Linux Ubuntu 16.04
+        - Windows
+    - Simple Express Server
+        - Linux Ubuntu 16.04
+        - Windows
 - Web Development
     - Front-end
         - HTML5
@@ -26,6 +27,7 @@
         - JavaScript
             - Frameworks
             - Libraries
+            - Package Manager
     - Back-end
         - Languages
         - Package Manager
