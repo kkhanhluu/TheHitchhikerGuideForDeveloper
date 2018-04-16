@@ -9,13 +9,21 @@
         - Gmail API
         - Maps API
         - YouTube Data API
+    - Snapchat
+        - Ads
+        - Lens
     - Telegram
         - Bot
         - Telegram
+    - Twitter
     - Other
+        - Earth Polychromatic Imaging Camera
+        - News
         - OpenWeatherMap
-        - Snapchat
-        - Twitter
+        - ProPublica Congress
+        - RestCountries
+        - TimeZoneDB
+        - United States Congress Images
 - IDE (Integrated Development Environment)
     - IDE
         - Eclipse
