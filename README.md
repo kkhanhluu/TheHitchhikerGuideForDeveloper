@@ -57,7 +57,7 @@
 - Approaches
 - Applications
 
-## Mobile App
+## Mobile Application
 
 ### Hybrid
 
@@ -74,6 +74,7 @@
 ### Linux
 
 - Arch
+    - Installation
 - Ubuntu
 
 ### macOS

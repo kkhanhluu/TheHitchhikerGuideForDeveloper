@@ -2,13 +2,9 @@
 
 ## Installation
 
-```
-npm install -g react-native-cli
-```
+**npm install -g react-native-cli**
 
-```
-yarn global add react-native-cli
-```
+**yarn global add react-native-cli**
 
 ## Creating a new application
 
