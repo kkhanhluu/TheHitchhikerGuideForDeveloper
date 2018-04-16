@@ -1,6 +1,19 @@
 # The Hitchhiker's Guilde for Developer
 
 - API (Application Programming Interface)
+    - Facebook
+        - Instagram Graph API
+        - Messenger Platform
+    - Google
+        - Drive API
+        - Gmail API
+        - Maps API
+        - YouTube Data API
+    - Other
+        - OpenWeatherMap
+        - Snapchat
+        - Telegram
+        - Twitter
 - IDE (Integrated Development Environment)
     - IDE
         - Eclipse
@@ -18,7 +31,6 @@
 - Mobile App
     - Hybrid
         - Ionic
-        - NativeScript
         - React Native
     - Native
         - Android

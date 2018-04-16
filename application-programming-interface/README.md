@@ -1,13 +1,5 @@
 # API (Application Programming Interface)
 
 - [Facebook](https://developers.facebook.com/)
-    - [Messenger Platform](https://developers.facebook.com/products/messenger/overview/)
-    - [Instagram Graph API](https://developers.facebook.com/products/instagram/)
 - [Google](https://developers.google.com/products/)
-    - [Maps API](https://developers.google.com/maps/)
-    - [Gmail API](https://developers.google.com/gmail/api/)
-    - [YouTube Data API](https://developers.google.com/youtube/v3/)
-- [OpenWeatherMap](https://openweathermap.org/)
-- [Telegram](https://core.telegram.org/)
-- [Twitter](https://developer.twitter.com/)
-- [SnapChat](https://developers.snapchat.com/)
+- Other
