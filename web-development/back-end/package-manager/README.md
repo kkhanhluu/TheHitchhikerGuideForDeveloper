@@ -1,6 +1,6 @@
 # Back-end Package Manager
 
-- PHP - composer
-- Node.js - npm
-- Python - pip
-- Ruby - gems
+- composer - PHP
+- gems - Ruby
+- npm - Node.js
+- pip - Python

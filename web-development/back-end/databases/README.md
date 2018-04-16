@@ -1,4 +1,4 @@
 # Back-end Databases
 
-- MySQL
-- MongoDB
+- NoSQL Databases
+- Relational Databases

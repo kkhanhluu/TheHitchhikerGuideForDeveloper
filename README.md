@@ -3,14 +3,32 @@
 - API (Application Programming Interface)
 - IDE (Integrated Development Environment)
     - IDE
+        - Eclipse
+        - NetBeans
+        - Visual Studio
+        - Xcode
     - Text Editor
+        - Atom
+        - Notepad++
+        - Sublime Text
+        - Visual Studio Code
 - Machine Learning
     - Approaches
     - Applications
 - Mobile App
     - Hybrid
+        - Ionic
+        - NativeScript
+        - React Native
     - Native
+        - Android
+        - iOS
 - Operating System
+    - Linux
+        - Arch
+        - Ubuntu
+    - macOS
+    - windows
 - Set Up
     - Node.js 
         - Linux Ubuntu 16.04
@@ -18,24 +36,75 @@
     - Simple Express Server
         - Linux Ubuntu 16.04
         - Windows
+- Version Control
+    - git
 - Web Development
     - Front-end
         - HTML5
         - CSS3
             - CSS-Preprocessors
+                - SASS
             - Frameworks
+                - Bootstrap
+                - Materialize
         - JavaScript
             - Frameworks
+                - Angular
+                - Vue.js
             - Libraries
+                - D3.js
+                - jQuery
+                - React
             - Package Manager
+                - npm
+                - Yarn
     - Back-end
+        - Authentication
+            - JSON (JSON Web Token)
+            - OAuth
         - Languages
+            - Enterprisey
+                - C#
+                - Golang
+                - Java
+                - Scala
+            - Scripting
+                - Node.js
+                - PHP
+                - Python
+                - Ruby
         - Package Manager
+            - composer
+            - gems
+            - npm
+            - pip
         - Frameworks
+            - Node.js
+                - Express.js
+            - PHP
+                - Laravel
+                - Symfony
+            - Python
+                - Django
+                - Flask
+            - Ruby
+                - Rails
         - Databases
-        - Auth
+            - NoSQL Databases
+            - Relational Databases
         - Servers
+            - Apache
+            - nginx
     - DevOps
-        - Cloud Computing
         - Continuous Integration & Continuous Development
+            - Jenkins
+            - Travis
+        - Cloud Computing
+            - Amazon Web Services
+            - Digital Ocean
+            - Google Cloud Platform
+            - Heroku
+            - IBM Bluemix
+            - Microsoft Azure
         - Containers
+            - Docker

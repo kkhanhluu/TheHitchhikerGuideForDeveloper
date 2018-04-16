@@ -1,8 +1,8 @@
 # Cloud Computing
 
 - Amazon Web Services
-- Google Cloud Platform
-- Microsoft Azure
-- IBM Bluemix
-- Heroku
 - Digital Ocean
+- Google Cloud Platform
+- Heroku
+- IBM Bluemix
+- Microsoft Azure

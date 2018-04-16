@@ -1,12 +1,10 @@
-# Computer Operating System
+# Operating System
 
 - Windows
     - Windows 7
     - Windows 8 / 8.1
     - Windows 10
 - Linux
-    - Ubuntu
-    - Arch
 - macOS
     - OX S
         - Mountain Lion

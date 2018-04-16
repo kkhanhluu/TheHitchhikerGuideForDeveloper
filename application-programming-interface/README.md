@@ -7,6 +7,7 @@
     - [Maps API](https://developers.google.com/maps/)
     - [Gmail API](https://developers.google.com/gmail/api/)
     - [YouTube Data API](https://developers.google.com/youtube/v3/)
-- [Twitter](https://developer.twitter.com/)
 - [OpenWeatherMap](https://openweathermap.org/)
 - [Telegram](https://core.telegram.org/)
+- [Twitter](https://developer.twitter.com/)
+- [SnapChat](https://developers.snapchat.com/)
