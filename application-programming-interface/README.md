@@ -2,4 +2,5 @@
 
 - [Facebook](https://developers.facebook.com/)
 - [Google](https://developers.google.com/products/)
+- [Telegram](https://core.telegram.org/)
 - Other

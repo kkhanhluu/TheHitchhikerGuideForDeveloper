@@ -9,10 +9,12 @@
         - Gmail API
         - Maps API
         - YouTube Data API
+    - Telegram
+        - Bot
+        - Telegram
     - Other
         - OpenWeatherMap
         - Snapchat
-        - Telegram
         - Twitter
 - IDE (Integrated Development Environment)
     - IDE
