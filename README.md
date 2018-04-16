@@ -43,6 +43,8 @@
     - windows
 - Version Control
     - git
+        - Command Line
+        - GUI Clients
 - Web Development
     - Front-end
         - HTML5
