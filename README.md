@@ -57,6 +57,7 @@
         - JavaScript
             - Frameworks
                 - Angular
+                    - Command Line
                 - Vue.js
             - Libraries
                 - D3.js
