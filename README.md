@@ -78,7 +78,14 @@
 
 ### macOS
 
+- OS X
+- macOS
+
 ### windows
+
+- Windows 7
+- Windows 8/8.1
+- Windows 10
 
 ## Version Control
     
@@ -95,25 +102,33 @@
 
 #### CSS3
     
-- CSS-Preprocessors
-    - SASS
-- Frameworks
-    - Bootstrap
-    - Materialize
+##### Preprocessors
+
+- SASS
+
+##### Frameworks
+
+- Bootstrap
+- Materialize
 
 #### JavaScript
     
-- Frameworks
-    - Angular
-        - Command Line
-    - Vue.js
-- Libraries
-    - D3.js
-    - jQuery
-    - React
-- Package Manager
-    - npm
-    - Yarn
+##### Frameworks
+
+- Angular
+    - Command Line
+- Vue.js
+
+##### Libraries
+
+- D3.js
+- jQuery
+- React
+
+##### Package Manager
+
+- npm
+- Yarn
 
 ### Back-end
 
@@ -124,16 +139,20 @@
 
 #### Languages
 
-- Enterprisey
-    - C#
-    - Golang
-    - Java
-    - Scala
-- Scripting
-    - Node.js
-    - PHP
-    - Python
-    - Ruby
+##### Enterprisey
+
+- C#
+- Golang
+- Java
+- Scala
+
+##### Scripting
+
+- Node.js
+- PHP
+- Python
+- Ruby
+
 #### Package Manager
 
 - composer
@@ -143,23 +162,33 @@
 
 #### Frameworks
 
-- Node.js
-    - Express.js
-- PHP
-    - Laravel
-    - Symfony
-- Python
-    - Django
-    - Flask
-- Ruby
-    - Rails
+##### Node.js
+
+- Express.js
+
+##### PHP
+
+- Laravel
+- Symfony
+
+##### Python
+
+- Django
+- Flask
+
+##### Ruby
+
+- Rails
 
 #### Databases
     
-- NoSQL Databases
-    - MongoDB
-- Relational Databases
-    - MySQL
+##### NoSQL Databases
+
+- MongoDB
+
+##### Relational Databases
+
+- MySQL
 
 #### Servers
 
