@@ -88,6 +88,8 @@
 - Windows 8/8.1
 - Windows 10
 
+## Raspberry Pi
+
 ## Version Control
     
 ### git
