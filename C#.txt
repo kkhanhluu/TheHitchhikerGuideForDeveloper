@@ -1,0 +1,41 @@
+1. C# language basics
+  - Stack: is a block of memory for storing local variables and paremeters
+  - Heap: is a block of memory in which objects reside. when a new object is created, it is allocated on the heap and a reference type to 
+  that object is returned
+  - value types: the content of a value is simply a value. struct, int, long, float, bool,... 
+  - reference types:having 2 parts: an object and the reference to that object. class, string,.. 
+  - Passed by value: 
+    + value types are passed by value by default 
+    + reference types: copies the reference, but not the object. 
+      
+      static void Foo (StringBuilder fooSB)
+      {
+         fooSB.Append ("test");
+         fooSB = null;
+      }
+      
+      static void main() 
+      {
+        StringBuilder sb = new StringBuilder(); 
+        Foo(sb); 
+        Console.Write(sb.ToString()); --------------------> test 
+      }
+      
+      fooSB is a reference copy of sb. in other words, sb and fooSB are 2 seperate variables that reference the same StringBuilder object. 
+      because of that, setting fooSB to null does not make sb null.
+     
+     + string is a reference type but is passed by value by default 
+  
+  - Out modifier: like ref modifier except:
+    + not need not be assigned before going in to a function 
+    + need to be assigned before it comes out of a function
+    
+  - null coalescing operator: if the operand is non null give it to me, otherwise, give me the default value 
+    string s1 = null; 
+    string s2 = s1 ?? "something"; ------> s2 = "something"
+    
+  - null conditional operator: 
+    + if the operand is null, the expression evaluates to null instead of throwing nullPointerException 
+    
+      Stringuilder sb = null; 
+      string s = sb?.ToString() ----> s = null instead of throwing NullPointerException(); 
