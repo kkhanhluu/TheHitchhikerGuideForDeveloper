@@ -43,4 +43,7 @@
     Person p = null;
     Student t = p // t = null not throwing exception
   - abstract functions like virtual functions except that they have no default implmentation
+  - constructor: if a sub class's constructor omits the base keyword, the base's parameterless constructor is implicitly called
+  - public interface IPoppable<out T> { T pop(); }. the key word out enables covariance (class or interface defintion not fuction's parameters)
   
+  - delegates are immutable. when using += or -= we create a new delegate instance and assign it to the existing variable 
