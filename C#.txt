@@ -39,3 +39,8 @@
     
       Stringuilder sb = null; 
       string s = sb?.ToString() ----> s = null instead of throwing NullPointerException(); 
+  - the as operator: perform downcasting without throwing exception when variable is null
+    Person p = null;
+    Student t = p // t = null not throwing exception
+  - abstract functions like virtual functions except that they have no default implmentation
+  
