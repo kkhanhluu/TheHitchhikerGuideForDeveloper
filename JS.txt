@@ -1,0 +1,25 @@
+1. The resulting promise object has internal properties:
+
+- state — initially “pending”, then changes to either “fulfilled” or “rejected”,
+- result — an arbitrary value of your choosing, initially undefined.
+When the executor finishes the job, it should call one of the functions that it gets as arguments:
+
+- resolve(value) — to indicate that the job finished successfully:
+  + sets state to "fulfilled",
+  + sets result to value.
+- reject(error) — to indicate that an error occurred:
+  + sets state to "rejected",
+  + sets result to error.
+
+Example: 
+ let promise = new Promise(function(resolve, reject) {
+    setTimeout(() => resolve("done"), 1000); 
+ });
+ 
+ 2.  .then() has 2 arguments:
+ - The first argument of .then is a function that:
+  + runs when the Promise is resolved, and
+  + receives the result.
+ - The second argument of .then is a function that:
+  + runs when the Promise is rejected, and
+  + receives the error.
