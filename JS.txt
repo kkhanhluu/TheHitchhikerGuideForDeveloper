@@ -23,3 +23,5 @@ Example:
  - The second argument of .then is a function that:
   + runs when the Promise is rejected, and
   + receives the error.
+3. .catch()
+  If we’re interested only in errors, then we can use null as the first argument: .then(null, errorHandlingFunction). Or we can use .catch(errorHandlingFunction), which is exactly the same:
