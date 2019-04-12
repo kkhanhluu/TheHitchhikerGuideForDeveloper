@@ -24,4 +24,33 @@ Example:
   + runs when the Promise is rejected, and
   + receives the error.
 3. .catch()
-  If we’re interested only in errors, then we can use null as the first argument: .then(null, errorHandlingFunction). Or we can use .catch(errorHandlingFunction), which is exactly the same:
+  If we’re interested only in errors, then we can use null as the first argument: .then(null, errorHandlingFunction). 
+  Or we can use .catch(errorHandlingFunction), which is exactly the same:
+4. const object can be changed
+  const user = {name: "A"}; 
+  user.name = "B"; (*)
+  - this piece of code is totally legal. Because line (*) goes inside the object user but does not reassigns object user. but this code 
+  will have an error: 
+  const user = {name: "A"}; 
+  user = {name: "B"}; 
+5. duplicate an object: 
+  - to duplicate an object use 2 methods: 
+    + use for loop to iterate over all the keys of this object 
+      for (var key in user) {
+        newObject[key] = user[key]; 
+      }
+    + use Object.assign(des, [src1, src2,...]); 
+6. check if a variable is a number 
+ -  if (!isNaN(a))
+ - if (typeof(a) === 'number')
+7. memory management: 
+ - garbage collector 
+ - The basic garbage collection algorithm is called “mark-and-sweep”.
+ - if an object is unreachable, it will form with other unreachable objects something called "unreachable island" und this island
+ will be deleted. 
+8. this keyword: 
+  It has different values depending on where it is used:
+    - In a method, this refers to the owner object.
+    - Alone, this refers to the global object.
+    - In a function, this refers to the global object.
+    - In a function, in strict mode, this is undefined.
