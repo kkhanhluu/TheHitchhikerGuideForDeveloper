@@ -1,3 +1,5 @@
+I. Promise, async/await programming 
+
 1. The resulting promise object has internal properties:
 
 - state — initially “pending”, then changes to either “fulfilled” or “rejected”,
@@ -26,31 +28,52 @@ Example:
 3. .catch()
   If we’re interested only in errors, then we can use null as the first argument: .then(null, errorHandlingFunction). 
   Or we can use .catch(errorHandlingFunction), which is exactly the same:
-4. const object can be changed
+  
+II. Objects
+
+1. const object can be changed
   const user = {name: "A"}; 
   user.name = "B"; (*)
   - this piece of code is totally legal. Because line (*) goes inside the object user but does not reassigns object user. but this code 
   will have an error: 
   const user = {name: "A"}; 
   user = {name: "B"}; 
-5. duplicate an object: 
+2. duplicate an object: 
   - to duplicate an object use 2 methods: 
     + use for loop to iterate over all the keys of this object 
       for (var key in user) {
         newObject[key] = user[key]; 
       }
     + use Object.assign(des, [src1, src2,...]); 
-6. check if a variable is a number 
+3. check if a variable is a number 
  -  if (!isNaN(a))
  - if (typeof(a) === 'number')
-7. memory management: 
- - garbage collector 
- - The basic garbage collection algorithm is called “mark-and-sweep”.
- - if an object is unreachable, it will form with other unreachable objects something called "unreachable island" und this island
- will be deleted. 
-8. this keyword: 
+
+4. there are 2 ways to create a new object: 
+  - using object literal: 
+    const person = {name: "Hi", age: 18}; 
+    
+  - using function constructor: 
+    function person(name, age) {
+      this.name = name; 
+      this.age = age; 
+    }
+5. this keyword: 
   It has different values depending on where it is used:
     - In a method, this refers to the owner object.
     - Alone, this refers to the global object.
     - In a function, this refers to the global object.
     - In a function, in strict mode, this is undefined.
+    - In arrow function, this retains the value of enclosing context's this. 
+    - IN anonymous function, the anonymous function is not explicitly called on behalf of any objects, so this defaults to the window object 
+
+III. VALUES, TYPES, OPERATIONs AND FUNCTIONS
+
+1. there 3 special values of type number: Infinity, -Infinity and NaN 
+2. The closure is the feature - that being able to get access to a specific instance of local binding in a enclosing scope 
+3. memory management: 
+ - garbage collector 
+ - The basic garbage collection algorithm is called “mark-and-sweep”.
+ - if an object is unreachable, it will form with other unreachable objects something called "unreachable island" und this island
+ will be deleted. 
+ 4. Computer memorize current context of programm in call stack 
