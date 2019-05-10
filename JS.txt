@@ -28,7 +28,8 @@ Example:
 3. .catch()
   If we’re interested only in errors, then we can use null as the first argument: .then(null, errorHandlingFunction). 
   Or we can use .catch(errorHandlingFunction), which is exactly the same:
-  
+ 
+4. Calback functions are functions that are passed to another function and are fired after the other function finished. 
 II. Objects
 
 1. const object can be changed
