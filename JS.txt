@@ -78,3 +78,8 @@ III. VALUES, TYPES, OPERATIONs AND FUNCTIONS
  - if an object is unreachable, it will form with other unreachable objects something called "unreachable island" und this island
  will be deleted. 
  4. Computer memorize current context of programm in call stack 
+
+IV. JS and Browser 
+1. Protocol describes the communication of the network. HTTP is protocol for retrieving named resources i.E GET /index.html HTTP/1.1
+2. To become part of the Web, all you need to do is connect a machine to the Internet and have it listen on port 80 with the HTTP protocol so that other computers can ask it for documents.
+3.  For example, a div is an ELEMENT node which can contain child nodes. Those child nodes can be other ELEMENT nodes or they can be TEXT nodes or COMMENT nodes or other types of nodes. childNodes return list of child nodes. children() return list of ELEMENT child nodes. 
