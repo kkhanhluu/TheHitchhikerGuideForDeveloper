@@ -83,3 +83,14 @@ IV. JS and Browser
 1. Protocol describes the communication of the network. HTTP is protocol for retrieving named resources i.E GET /index.html HTTP/1.1
 2. To become part of the Web, all you need to do is connect a machine to the Internet and have it listen on port 80 with the HTTP protocol so that other computers can ask it for documents.
 3.  For example, a div is an ELEMENT node which can contain child nodes. Those child nodes can be other ELEMENT nodes or they can be TEXT nodes or COMMENT nodes or other types of nodes. childNodes return list of child nodes. children() return list of ELEMENT child nodes. 
+4. Session Id can be stored in cookies or url. With url apporach, users can be attacked if hackers can get HTTP_Referrer attribute. 
+With cookies approach, session id are stored in cookies. 
+5. During the initial response, the Web server Sever has no information about how
+has no knowledge about how the client processes its cookie request, cookies are processed on the client side
+i.e., whether it was accepted or rejected. How a cookie is processed only with the following request. When the cookie was accepted, 
+the client includes it in the HTTP header of every request
+6. local Storage vs cookies: 
+  - Cookies expire and get cleared a lot, localStorage is forever (until explicitly cleared).
+  - localStorage isn't sent along in HTTP Requests, you have to ask for it.
+  - You can store way more data in localStorage than you can in cookies.
+  - The API for localStorage is wicked simple and easy.
